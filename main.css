@@ -8,8 +8,9 @@
 .header{
     display: flex;
     float: right;
+    align-items: center;
 }
-.header .menu{
+.header svg{
     width: 24px;
     height: 24px;
     color: rgb(95, 99, 104);
@@ -17,10 +18,12 @@
 
 .header a{
     font-weight: normal;
+    font-size: 13px;
     text-decoration: none;
     color: #191919;
     padding-right: 1rem;
     text-align: right;
+    cursor: pointer;
 }
 
 .header button{
