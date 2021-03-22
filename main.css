@@ -9,6 +9,7 @@
     display: flex;
     float: right;
     align-items: center;
+    margin: .5rem;
 }
 .header svg{
     width: 24px;
@@ -24,6 +25,8 @@
     padding-right: 1rem;
     text-align: right;
     cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 
 .header button{
@@ -34,3 +37,4 @@
     border-radius: 4px;
     border: none;
 }
+
