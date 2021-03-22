@@ -38,3 +38,34 @@
     border: none;
 }
 
+.middle-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.google-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.google-img img{
+    width: 50%;
+    background-size: cover;
+}
+
+.search{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+.search input{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.search button{
+    border: none;
+}
